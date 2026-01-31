@@ -1,0 +1,142 @@
+.footer {
+  background-color: #030406;
+  color: #fff;
+  padding: 40px 0;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-column a,
+.footer-column p,
+.footer-column address {
+  color: #fafafa;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.footer-column a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.subscribe-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #fff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background: transparent;
+}
+
+.subscribe-input-wrapper input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  width: 130px;
+}
+
+.send-icon {
+  cursor: pointer;
+}
+
+.app-promo {
+  font-size: 12px;
+  color: #7d8184;
+}
+
+.download-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.qr-code img {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  padding: 2px;
+}
+
+.app-stores {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.app-stores img {
+  width: 110px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icons svg:hover {
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  border-top: 1px solid #141414;
+  padding-top: 16px;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .footer-column {
+    flex: 1 1 200px;
+  }
+}

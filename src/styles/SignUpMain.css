@@ -1,13 +1,16 @@
 .signup-main-container {
   display: flex;
+  max-width: 1800px;
   min-height: 80vh;
   align-items: center;
   gap: 50px;
   font-family: "Inter", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .left-side-main {
-  flex: 1.5;
+  flex: 2;
 }
 
 .signup-image {
